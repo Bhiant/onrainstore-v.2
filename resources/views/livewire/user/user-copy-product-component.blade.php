@@ -30,17 +30,17 @@
 
                   <div class="card-body">
 
-                    <div class="input-group">
+                    {{-- <div class="input-group">
                       <label for="sku" class="col-sm-2 col-form-label">SKU</label>
-                      <input type="text" class="form-control" value="{{$product->SKU}}" id="copysku" readonly>
+                      <input type="text" class="form-control" value="BAYAR DITEMPAT {{$product->SKU}} {{$product->name}}" id="copysku" readonly>
                       <div class="input-group-append">
                         <button type="submit" class="btn btn-info btn-copy" onclick="copysku()"><i class="far fa-copy"> Copy</i></button>
                       </div>
-                    </div>
+                    </div> --}}
 
                     <div class="input-group" style="margin-top: 10px;">
-                      <label for="sku" class="col-sm-2 col-form-label">Nama</label>
-                      <input type="text" class="form-control" value="{{$product->name}}" id="copyname" readonly>
+                      <label for="sku" class="col-sm-2 col-form-label">Nama Produk</label>
+                      <input type="text" class="form-control" value="BAYAR DITEMPAT {{$product->SKU}} {{$product->name}}" id="copyname" readonly>
                       <div class="input-group-append">
                         <button type="submit" class="btn btn-info btn-copy" onclick="copyname()"><i class="far fa-copy"> Copy</i></button>
                       </div>
