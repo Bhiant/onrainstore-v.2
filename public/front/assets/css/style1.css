@@ -1,0 +1,108 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(hujan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.login {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(4, 29, 23, 0.5);
+    padding: 30px 35px;
+    width: 320px;
+    box-shadow: 0px 0px 25px 10px black;
+    border-radius: 15px;
+}
+
+.login h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fafafa;
+    text-transform: uppercase;
+}
+
+.box-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+}
+
+.box-login i {
+    font-size: 26px;
+    color: white;
+    padding: 3px 0;
+}
+
+.box-login input {
+    width: 90%;
+    overflow: hidden;
+    padding: 8px 0;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px #fafafa;
+    font-size: 18px;
+    margin: 0 10px;
+    color: #fafafa;
+}
+
+.box-login input::placeholder {
+    color: white;
+}
+
+.btn-login .box-login input:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.btn-login {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 2px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.text-red-600 {
+    color: red;
+    background: white;
+}
