@@ -112,11 +112,12 @@
 									</div>
 								</a>
 							</div>
-							<div class="wrap-icon-section show-up-after-1024">
-								<a href="#" class="mobile-navigation">
-									<span></span>
-									<span></span>
-									<span></span>
+							<div class="wrap-icon-section minicart">
+								<a href="/" class="link-direction">
+									<i class="fa fa-home" aria-hidden="true"></i>
+									<div class="left-info">
+										<span class="title">Home</span>
+									</div>
 								</a>
 							</div>
 						</div>
@@ -124,18 +125,18 @@
 					</div>
 				</div>
 
-					<div class="primary-nav-section">
+					{{-- <div class="primary-nav-section">
 						<div class="container">
 							<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
 								<li class="menu-item home-icon">
 									<a href="/" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
 								</li>
-								{{-- <li class="menu-item">
+								<li class="menu-item">
 									<a href="/admin" class="link-term mercado-item-title">Dashboard (Admin)</a>
-								</li> --}}
+								</li>
 							</ul>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</div>
